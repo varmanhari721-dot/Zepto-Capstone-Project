@@ -1,5 +1,5 @@
 # Zepto Capstone-Data, Analytics & GenAI Pipeline
-Zepto Capstone Project
+**Zepto Capstone Project**
 
 An end-to-end data engineering, analytics, machine learning, and GenAI project built around a Zepto-style product and support workflow.
 
@@ -11,7 +11,7 @@ This capstone project is organized into three independent but related modules:
 2. Analytics & Machine Learning — perform exploratory analysis and build predictive models using the Titanic dataset.
 3. Support Assistant — build an offline RAG-based Zepto policy assistant using local embeddings, ChromaDB, LangGraph, Pydantic, and FastAPI.
 
-Repository Structure
+**Repository Structure**
 
 **Module 1** — Data Pipeline
 
@@ -37,7 +37,7 @@ Load → Profile → Clean → Explore → Model → Evaluate → Tune → Persi
 
 The Titanic dataset is analyzed through EDA, missing-value handling, outlier analysis, correlation analysis, visualization, classification, class-imbalance comparison, hyperparameter tuning, and regression.
 
-Three classification models are evaluated:
+**Three classification models are evaluated**:
 
 - Logistic Regression
 - Decision Tree
