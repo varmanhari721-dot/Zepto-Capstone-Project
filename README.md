@@ -3,7 +3,7 @@ Zepto Capstone Project
 
 An end-to-end data engineering, analytics, machine learning, and GenAI project built around a Zepto-style product and support workflow.
 
-Project Overview
+**Project Overview**
 
 This capstone project is organized into three independent but related modules:
 
@@ -13,7 +13,7 @@ This capstone project is organized into three independent but related modules:
 
 Repository Structure
 
-Module 1 — Data Pipeline
+**Module 1** — Data Pipeline
 
 The data pipeline demonstrates a complete raw-to-relational workflow:
 
@@ -29,7 +29,7 @@ The required fixed currency conversion is:
 
 See ""data_pipeline/README.md"" (data_pipeline/README.md) for implementation details and run instructions.
 
-Module 2 — Analytics & Machine Learning
+**Module 2** — Analytics & Machine Learning
 
 The analytics module follows an analyst-to-data-scientist workflow:
 
@@ -47,7 +47,7 @@ The final fitted preprocessing-and-model pipeline is persisted using "joblib".
 
 See ""analytics/README.md"" (analytics/README.md) for detailed results and conclusions.
 
-Module 3 — Zepto Support Assistant
+**Module 3** - Zepto Support Assistant
 
 The support assistant implements an offline Retrieval-Augmented Generation pipeline:
 
@@ -61,7 +61,7 @@ The service exposes a FastAPI "POST /ask" endpoint and includes a Dockerfile for
 
 See ""support_assistant/README.md"" (support_assistant/README.md) for architecture, examples, and run instructions.
 
-Key Technologies
+**Key Technologies**
 
 - Python
 - Requests
@@ -83,7 +83,7 @@ Key Technologies
 - Docker
 - Jupyter / Google Colab
 
-Reproducibility
+**Reproducibility**
 
 Each module contains its own README with installation and execution instructions.
 
@@ -94,7 +94,7 @@ The project is designed so that:
 - The support assistant uses local embeddings and deterministic mock logic for its required baseline.
 - No external LLM API is required for the graded support-assistant path.
 
-Summary
+**Summary**
 
 This project demonstrates an end-to-end workflow spanning:
 
