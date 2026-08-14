@@ -96,9 +96,15 @@ Example:
 
 For general questions, sources is an empty list.
 
-## Example 1 - Policy Question
+**Example Call Transcripts**
+
+The following examples were tested with the default "MOCK_LLM=1" configuration. No external LLM API is required.
+
+**##Example 1** — Policy Question
 
 Request:
+
+POST /ask
 
 {
   "query": "How much does Zepto charge for delivery below INR 149?"
@@ -106,17 +112,21 @@ Request:
 
 Response:
 
+HTTP 200
+
 {
   "answer": "Based on the retrieved context: ...",
   "sources": ["doc_01", "doc_03", "doc_08"],
   "confidence": 1.0
 }
 
-This query is routed to policy_question and then to retrieve_and_answer.
+The request is classified as "policy_question" and routed to "retrieve_and_answer".
 
-## Example 2 - General Question
+**##Example 2** — General Question
 
 Request:
+
+POST /ask
 
 {
   "query": "What is the capital of India?"
@@ -124,14 +134,15 @@ Request:
 
 Response:
 
+HTTP 200
+
 {
   "answer": "I can only answer questions about Zepto policies right now.",
   "sources": [],
   "confidence": 1.0
 }
 
-This query is routed to general_question and then to direct_answer.
-
+The request is classified as "general_question" and routed to "direct_answer".
 ## FastAPI
 
 Run locally with:
