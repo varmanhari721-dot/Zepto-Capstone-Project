@@ -13,31 +13,6 @@ This capstone project is organized into three independent but related modules:
 
 Repository Structure
 
-Zepto-Capstone-Project/
-│
-├── data_pipeline/
-│   ├── data_pipeline.ipynb
-│   ├── books_catalog.db
-│   ├── sql_queries.sql
-│   ├── outputs/
-│   └── README.md
-│
-├── analytics/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Modeling.ipynb
-│   ├── titanic.csv
-│   ├── best_titanic_pipeline.joblib
-│   └── README.md
-│
-└── support_assistant/
-    ├── docs/
-    ├── main.py
-    ├── prompts.py
-    ├── llm_validation.py
-    ├── Dockerfile
-    ├── requirements.txt
-    └── README.md
-
 Module 1 — Data Pipeline
 
 The data pipeline demonstrates a complete raw-to-relational workflow:
