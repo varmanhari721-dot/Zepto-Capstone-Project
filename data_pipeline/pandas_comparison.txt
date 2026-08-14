@@ -1,0 +1,31 @@
+pd.read_sql() JOIN result
+============================================================
+category_name                                                                              title  rating  price_gbp  price_inr
+      Default                      A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations       5      56.76    5988.18
+      Default The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer       5      20.59    2172.24
+      Mystery                                             A Time of Torment (Charlie Parker #14)       5      48.35    5100.92
+      Mystery           The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)       5      52.30    5517.65
+      Mystery                  What Happened on Beale Street (Secrets of the South Mysteries #2)       5      25.37    2676.54
+Young Fiction                                                     Frostbite (Vampire Academy #2)       5      29.99    3163.94
+Young Fiction                         Library of Souls (Miss Peregrineâs Peculiar Children #3)       5      48.56    5123.08
+Young Fiction                                                     Scarlett Epstein Hates It Here       5      43.55    4594.52
+Young Fiction                                                                        Set Me Free       5      17.46    1842.03
+Young Fiction                                                                    The Darkest Lie       5      35.35    3729.42
+Young Fiction                                                     The Epidemic (The Program 0.6)       5      14.44    1523.42
+
+pd.merge() JOIN result
+============================================================
+category_name                                                                              title  rating  price_gbp  price_inr
+      Default                      A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations       5      56.76    5988.18
+      Default The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer       5      20.59    2172.24
+      Mystery                                             A Time of Torment (Charlie Parker #14)       5      48.35    5100.92
+      Mystery           The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)       5      52.30    5517.65
+      Mystery                  What Happened on Beale Street (Secrets of the South Mysteries #2)       5      25.37    2676.54
+Young Fiction                                                     Frostbite (Vampire Academy #2)       5      29.99    3163.94
+Young Fiction                         Library of Souls (Miss Peregrineâs Peculiar Children #3)       5      48.56    5123.08
+Young Fiction                                                     Scarlett Epstein Hates It Here       5      43.55    4594.52
+Young Fiction                                                                        Set Me Free       5      17.46    1842.03
+Young Fiction                                                                    The Darkest Lie       5      35.35    3729.42
+Young Fiction                                                     The Epidemic (The Program 0.6)       5      14.44    1523.42
+
+Equivalent: True
